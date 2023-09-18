@@ -10,7 +10,7 @@ const addTicketModalBtn = document.querySelector('.add-ticket');
 const cancelTicketBtn = document.querySelector('.cancel-ticket');
 const addTicketForm = document.querySelector('.add-ticket-form');
 const modalWindow = document.querySelector('.ticket-modal');
-const url = 'http://localhost:7070/';
+const url = 'https://vv1nc3nt.github.io/ahj7_backend/';
 
 window.addEventListener('DOMContentLoaded', renderAllTickets());
 
