@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="ticket-system">
+    <button class="add-ticket">Add ticket</button>
+    <ul class="ticket-list"></ul>
+    <div class="ticket-modal hidden">
+      <p class="ticket-header">Add ticket</p>
+      <form action="" class="add-ticket-form" method="POST" action="http://localhost:7070/">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="name" id="name">
+        <label for="full_desc" class="full-desc-label">Full description</label>
+        <textarea name="full_desc" class="full-input" id="full_desc"></textarea>
+        <div class="form-btns">
+          <button class="cancel-ticket form-btn">Cancel</button>
+          <button class="ok-ticket form-btn">Ok</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
